@@ -9,7 +9,7 @@ if (numberA == numberB)
 else
 {
 
-    if ((numberA > numberB) & (numberA != numberB))
+    if (numberA > numberB)
     {
         Console.Write(numberA);
         Console.Write(" - Данное число больше, соответственно второе меньше");
