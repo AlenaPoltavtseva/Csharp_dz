@@ -2,13 +2,21 @@
 int numberA = int.Parse(Console.ReadLine());
 int numberB = int.Parse(Console.ReadLine());
 
-if (numberA > numberB)
+if (numberA == numberB)
 {
-    Console.Write(numberA);
-    Console.Write(" - Данное число больше, соответственно второе меньше");
+    Console.WriteLine("Числа равны");
 }
 else
 {
-    Console.Write(numberB);
-    Console.Write(" - Данное число больше, соответственно второе меньше");
+
+    if ((numberA > numberB) & (numberA != numberB))
+    {
+        Console.Write(numberA);
+        Console.Write(" - Данное число больше, соответственно второе меньше");
+    }
+    else
+    {
+        Console.Write(numberB);
+        Console.Write(" - Данное число больше, соответственно второе меньше");
+    }
 }
